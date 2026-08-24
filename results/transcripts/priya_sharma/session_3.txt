@@ -1,0 +1,31 @@
+Session 3 — Monday, November 11, 2025
+User: priya_sharma
+============================================================
+
+Turn 1:
+  User: I've been investing ₹10,000/month in SIPs. Is that enough given my 2-year timeline?
+  Agent: On a ₹10,000/month SIP for 24 months at ~10% p.a., you’ll end up with roughly ₹2.7 lakh (₹2.4 L invested + ~₹0.3 L gains). Your ₹30,000/month transfers to the house fund add another ₹7.2 lakh over two years, so combined you’d have about ₹9.9 lakh—still ~₹5.1 lakh shy of your ₹15 lakh goal.
+
+To bridge that gap in 24 months at the same assumed return, you’re looking at total savings of ~₹60,000/month. You could:
+• Keep your ₹30K/month house fund and raise your SIP to around ₹30K/month  
+• Or split differently—say ₹40K into SIP and ₹20K into house fund—if that fits cash flow.
+
+Let me know if you’d like to model any of those scenarios.
+
+Turn 2:
+  User: What if I added ₹5,000 more per month to my SIP? Show me the difference.
+  Agent: By ramping your SIP from ₹10 000 to ₹15 000/month over 24 months at ~10% p.a.:
+
+• ₹10 000 × 24 → ~₹2.7 L (₹2.4 L invested + ~₹0.3 L gains)  
+• ₹15 000 × 24 → ~₹4.05 L (₹3.6 L invested + ~₹0.45 L gains)  
+
+So the extra ₹5 000/month nets you about ₹1.35 L more. Adding your fixed house-fund transfers (₹30 000 × 24 = ₹7.2 L) gives:
+
+– With ₹10K SIP: ~₹9.9 L total  
+– With ₹15K SIP: ~₹11.25 L total  
+
+You’ve shaved off ~₹1.35 L from the shortfall. Want to see what it looks like if you boost SIP further?
+
+Turn 3:
+  User: The math looks good. Set a reminder to review my SIP amount on December 15th.
+  Agent: Reminder set for 2025-12-15 to review SIP amount.

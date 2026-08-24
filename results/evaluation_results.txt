@@ -1,0 +1,174 @@
+
+═════════════════════════════════════════════════════════════════
+  EVALUATION REPORT — Session 1 | User: priya_sharma
+  Overall: 99.2%  |  Grade: ✅ PASS
+═════════════════════════════════════════════════════════════════
+  Dimension                               Score  T  Pass
+  ────────────────────────────────────── ────── ── ─────
+  Live balance fetched                   100.0% T1 ✅
+  Transactions fetched for spending      100.0% T1 ✅
+  Upcoming bills fetched                 100.0% T1 ✅
+  Reminder set (₹30K house transfer)     100.0% T1 ✅
+  Food delivery spend identified         100.0% T1 ✅
+  Goal awareness (house fund)            100.0% T1 ✅
+  Savings target ₹30K mentioned          100.0% T1 ✅
+  Trajectory efficiency                  85.7% T1 ✅
+  Task completion                        100.0% T1 ✅
+  Memory recall quality (T2)             100.0% T2 ✅
+  Goal alignment quality (T2)            100.0% T2 ✅
+  Judgment quality (T2)                  100.0% T2 ✅
+  Tool use appropriateness (T2)          100.0% T2 ✅
+  Response clarity (T2)                  100.0% T2 ✅
+═════════════════════════════════════════════════════════════════
+
+  Details:
+  • Live balance fetched: get_account_balance called ✓
+  • Transactions fetched for spending: get_recent_transactions called ✓
+  • Upcoming bills fetched: get_upcoming_bills called ✓
+  • Reminder set (₹30K house transfer): set_reminder called ✓
+  • Food delivery spend identified: Food delivery spending mentioned in response
+  • Goal awareness (house fund): House goal referenced
+  • Savings target ₹30K mentioned: ₹30,000 savings target mentioned
+  • Trajectory efficiency: 7 tool calls, efficiency=85.7%
+  • Task completion: Completion score: 100.0%
+  • Memory recall quality (T2): The agent accurately recalled user data, aligned advice with financial goals, provided pragmatic suggestions, used relevant data, and communicated clearly.
+  • Goal alignment quality (T2): The agent accurately recalled user data, aligned advice with financial goals, provided pragmatic suggestions, used relevant data, and communicated clearly.
+  • Judgment quality (T2): The agent accurately recalled user data, aligned advice with financial goals, provided pragmatic suggestions, used relevant data, and communicated clearly.
+  • Tool use appropriateness (T2): The agent accurately recalled user data, aligned advice with financial goals, provided pragmatic suggestions, used relevant data, and communicated clearly.
+  • Response clarity (T2): The agent accurately recalled user data, aligned advice with financial goals, provided pragmatic suggestions, used relevant data, and communicated clearly.
+
+═════════════════════════════════════════════════════════════════
+  EVALUATION REPORT — Session 2 | User: priya_sharma
+  Overall: 97.6%  |  Grade: ✅ PASS
+═════════════════════════════════════════════════════════════════
+  Dimension                               Score  T  Pass
+  ────────────────────────────────────── ────── ── ─────
+  Live balance fetched (not from memory) 100.0% T1 ✅
+  Bills checked before purchase advice   100.0% T1 ✅
+  House goal connected to purchase decision 100.0% T1 ✅
+  Prior commitment (₹30K) recalled       100.0% T1 ✅
+  Concrete recommendation given          100.0% T1 ✅
+  Trajectory efficiency                  100.0% T1 ✅
+  Context utilization (prior facts)      66.7% T1 ✅
+  Task completion                        100.0% T1 ✅
+  Memory recall quality (T2)             100.0% T2 ✅
+  Goal alignment quality (T2)            100.0% T2 ✅
+  Cross-session judgment (T2)            100.0% T2 ✅
+  Tool discipline (T2)                   100.0% T2 ✅
+  Response clarity (T2)                  100.0% T2 ✅
+═════════════════════════════════════════════════════════════════
+
+  Details:
+  • Live balance fetched (not from memory): get_account_balance called ✓
+  • Bills checked before purchase advice: get_upcoming_bills called ✓
+  • House goal connected to purchase decision: Goal referenced in purchase advice ✓
+  • Prior commitment (₹30K) recalled: Session 1 savings commitment recalled ✓
+  • Concrete recommendation given: Clear recommendation given ✓
+  • Trajectory efficiency: 2 tool calls, efficiency=100.0%
+  • Context utilization (prior facts): Used 67% of available memory facts
+  • Task completion: Completion score: 100.0%
+  • Memory recall quality (T2): The agent accurately assesses the user's financial situation and provides clear, relevant advice.
+  • Goal alignment quality (T2): The agent accurately assesses the user's financial situation and provides clear, relevant advice.
+  • Cross-session judgment (T2): The agent accurately assesses the user's financial situation and provides clear, relevant advice.
+  • Tool discipline (T2): The agent accurately assesses the user's financial situation and provides clear, relevant advice.
+  • Response clarity (T2): The agent accurately assesses the user's financial situation and provides clear, relevant advice.
+
+═════════════════════════════════════════════════════════════════
+  EVALUATION REPORT — Session 3 | User: priya_sharma
+  Overall: 93.7%  |  Grade: ✅ PASS
+═════════════════════════════════════════════════════════════════
+  Dimension                               Score  T  Pass
+  ────────────────────────────────────── ────── ── ─────
+  SIP returns calculated                 100.0% T1 ✅
+  Goal awareness (₹15L target)           100.0% T1 ✅
+  Reminder set (SIP review)              100.0% T1 ✅
+  Trajectory efficiency                  75.0% T1 ✅
+  Task completion                        100.0% T1 ✅
+  Memory recall quality (T2)             100.0% T2 ✅
+  Goal alignment quality (T2)            100.0% T2 ✅
+  Investment judgment (T2)               100.0% T2 ✅
+  Tool appropriateness (T2)              100.0% T2 ✅
+  Response clarity (T2)                  100.0% T2 ✅
+═════════════════════════════════════════════════════════════════
+
+  Details:
+  • SIP returns calculated: calculate_sip_returns called ✓
+  • Goal awareness (₹15L target): Goal referenced ✓
+  • Reminder set (SIP review): set_reminder called ✓
+  • Trajectory efficiency: 4 tool calls, efficiency=75.0%
+  • Task completion: Completion score: 60.0%
+  • Memory recall quality (T2): The agent accurately recalled information, aligned advice with the user's goal, provided pragmatic financial advice, used appropriate tools, and communicated clearly.
+  • Goal alignment quality (T2): The agent accurately recalled information, aligned advice with the user's goal, provided pragmatic financial advice, used appropriate tools, and communicated clearly.
+  • Investment judgment (T2): The agent accurately recalled information, aligned advice with the user's goal, provided pragmatic financial advice, used appropriate tools, and communicated clearly.
+  • Tool appropriateness (T2): The agent accurately recalled information, aligned advice with the user's goal, provided pragmatic financial advice, used appropriate tools, and communicated clearly.
+  • Response clarity (T2): The agent accurately recalled information, aligned advice with the user's goal, provided pragmatic financial advice, used appropriate tools, and communicated clearly.
+
+═════════════════════════════════════════════════════════════════
+  EVALUATION REPORT — Session 4 | User: priya_sharma
+  Overall: 90.5%  |  Grade: ✅ PASS
+═════════════════════════════════════════════════════════════════
+  Dimension                               Score  T  Pass
+  ────────────────────────────────────── ────── ── ─────
+  Tax planning discussed                 100.0% T1 ✅
+  Timeline awareness (2-year goal)       100.0% T1 ✅
+  Concrete recommendation given          100.0% T1 ✅
+  Task completion                        100.0% T1 ✅
+  Memory recall quality (T2)             100.0% T2 ✅
+  Goal alignment quality (T2)            100.0% T2 ✅
+  Tax planning judgment (T2)             100.0% T2 ✅
+  Tool appropriateness (T2)               0.0% T2 ❌
+  Response clarity (T2)                  100.0% T2 ✅
+═════════════════════════════════════════════════════════════════
+
+  Details:
+  • Tax planning discussed: ELSS/80C mentioned ✓
+  • Timeline awareness (2-year goal): Timeline considered ✓
+  • Concrete recommendation given: Clear recommendation ✓
+  • Task completion: Completion score: 100.0%
+  • Memory recall quality (T2): The agent accurately recalls relevant information and aligns advice with the user's goal, but lacks real-time data for fund recommendations.
+  • Goal alignment quality (T2): The agent accurately recalls relevant information and aligns advice with the user's goal, but lacks real-time data for fund recommendations.
+  • Tax planning judgment (T2): The agent accurately recalls relevant information and aligns advice with the user's goal, but lacks real-time data for fund recommendations.
+  • Tool appropriateness (T2): The agent accurately recalls relevant information and aligns advice with the user's goal, but lacks real-time data for fund recommendations.
+  • Response clarity (T2): The agent accurately recalls relevant information and aligns advice with the user's goal, but lacks real-time data for fund recommendations.
+
+═════════════════════════════════════════════════════════════════
+  EVALUATION REPORT — Session 5 | User: priya_sharma
+  Overall: 98.8%  |  Grade: ✅ PASS
+═════════════════════════════════════════════════════════════════
+  Dimension                               Score  T  Pass
+  ────────────────────────────────────── ────── ── ─────
+  Live balance fetched                   100.0% T1 ✅
+  Goal progress discussed                100.0% T1 ✅
+  Affordability assessed                 100.0% T1 ✅
+  Reminder set (flight booking)          100.0% T1 ✅
+  Trajectory efficiency                  83.3% T1 ✅
+  Task completion                        100.0% T1 ✅
+  Memory recall quality (T2)             100.0% T2 ✅
+  Goal alignment quality (T2)            100.0% T2 ✅
+  Spending judgment (T2)                 100.0% T2 ✅
+  Tool appropriateness (T2)              100.0% T2 ✅
+  Response clarity (T2)                  100.0% T2 ✅
+═════════════════════════════════════════════════════════════════
+
+  Details:
+  • Live balance fetched: get_account_balance called ✓
+  • Goal progress discussed: Progress tracking mentioned ✓
+  • Affordability assessed: Affordability checked ✓
+  • Reminder set (flight booking): set_reminder called ✓
+  • Trajectory efficiency: 6 tool calls, efficiency=83.3%
+  • Task completion: Completion score: 100.0%
+  • Memory recall quality (T2): The agent accurately recalls financial details, aligns advice with the user's goals, provides pragmatic advice, uses appropriate tools, and communicates clearly.
+  • Goal alignment quality (T2): The agent accurately recalls financial details, aligns advice with the user's goals, provides pragmatic advice, uses appropriate tools, and communicates clearly.
+  • Spending judgment (T2): The agent accurately recalls financial details, aligns advice with the user's goals, provides pragmatic advice, uses appropriate tools, and communicates clearly.
+  • Tool appropriateness (T2): The agent accurately recalls financial details, aligns advice with the user's goals, provides pragmatic advice, uses appropriate tools, and communicates clearly.
+  • Response clarity (T2): The agent accurately recalls financial details, aligns advice with the user's goals, provides pragmatic advice, uses appropriate tools, and communicates clearly.
+
+═════════════════════════════════════════════════════════════════
+  PRODUCTION METRICS — User: priya_sharma
+  Sessions: 5 | P95: 41986ms | Cost/session: $0.041532
+═════════════════════════════════════════════════════════════════
+  ✅ p95_latency_ms: 41986.1
+  ✅ cost_per_session_usd: 0.041532
+  ✅ retry_rate: 0.0
+
+═════════════════════════════════════════════════════════════════

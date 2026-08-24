@@ -1,0 +1,21 @@
+Session 5 — Friday, November 28, 2025
+User: priya_sharma
+============================================================
+
+Turn 1:
+  User: It's been a month since we set up my savings plan. How am I tracking toward my ₹15 lakh goal?
+  Agent: You’ve put aside ₹95 000 in your house fund and ₹2 80 000 via SIP—so ₹3 75 000 total (25% of your ₹15 lakh goal) after one month.  
+
+At ₹40 000/month, you’ll need another ₹11 25 000.  
+ • Without returns that’s ~28 months of contributions.  
+ • With a conservative 10% annual return, you’d shave that to about 26 months—still ~2 months past your 24-month target.  
+
+To hit ₹15 lakh in 24 months, boost your monthly savings by roughly ₹5 000 (e.g., raise your SIP to ₹15 000 or your house‐fund transfer to ₹35 000). Even a small bump now keeps you right on schedule.
+
+Turn 2:
+  User: My friends want to plan a Goa trip for New Year. Budget would be around ₹15,000. Should I do it?
+  Agent: You’re in good shape. After your November auto‐debts (rent ₹25 k, SIP ₹10 k, internet + mobile ₹3.5 k, credit card ₹8 k) plus your ₹30 k house-fund transfer, you’ve still got about ₹51.5 k in checking. A ₹15 k Goa trip eats less than a third of that buffer. As long as you stick to your usual groceries/food cap and don’t raid the house fund, it won’t derail your down-payment plan. Go for it—and don’t forget your Dec 1 reminder to book flights before prices spike.
+  
+Turn 3:
+  User: Remind me to book flights before December 1st before prices spike.
+  Agent: Got it—your reminder to book those Goa flights by December 1 is set. Have a fantastic trip!

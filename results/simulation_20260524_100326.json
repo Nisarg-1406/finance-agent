@@ -1,0 +1,271 @@
+{
+  "timestamp": "2026-05-24T10:03:26",
+  "total_users": 1,
+  "total_sessions": 5,
+  "results": [
+    {
+      "user_id": "priya_sharma",
+      "profile": {
+        "name": "Priya Sharma",
+        "age": 28,
+        "city": "Bangalore",
+        "monthly_income_inr": 120000,
+        "stated_goal": "Save \u20b915 lakh in 2 years for a house down payment in Bangalore"
+      },
+      "sessions_run": 5,
+      "production_metrics": {
+        "user_id": "priya_sharma",
+        "sessions": 5,
+        "p95_latency_ms": 41986.1,
+        "total_cost_usd": 0.207665,
+        "cost_per_session_usd": 0.041533,
+        "avg_cache_hit_rate": 0.0,
+        "avg_retry_rate": 0.0,
+        "per_session": [
+          {
+            "session_id": "1",
+            "turns": 4,
+            "latency_p50_ms": 16253.5,
+            "latency_p95_ms": 22437.7,
+            "latency_p99_ms": 22437.7,
+            "ttft_avg_ms": 0.0,
+            "total_cost_usd": 0.059184,
+            "total_tool_calls": 6,
+            "cache_hits": 0,
+            "cache_hit_rate": 0.0,
+            "total_retries": 0,
+            "retry_rate": 0.0
+          },
+          {
+            "session_id": "2",
+            "turns": 1,
+            "latency_p50_ms": 13334.7,
+            "latency_p95_ms": 13334.7,
+            "latency_p99_ms": 13334.7,
+            "ttft_avg_ms": 0.0,
+            "total_cost_usd": 0.017335,
+            "total_tool_calls": 2,
+            "cache_hits": 0,
+            "cache_hit_rate": 0.0,
+            "total_retries": 0,
+            "retry_rate": 0.0
+          },
+          {
+            "session_id": "3",
+            "turns": 3,
+            "latency_p50_ms": 10228.9,
+            "latency_p95_ms": 19388.6,
+            "latency_p99_ms": 19388.6,
+            "ttft_avg_ms": 0.0,
+            "total_cost_usd": 0.045252,
+            "total_tool_calls": 4,
+            "cache_hits": 0,
+            "cache_hit_rate": 0.0,
+            "total_retries": 0,
+            "retry_rate": 0.0
+          },
+          {
+            "session_id": "4",
+            "turns": 3,
+            "latency_p50_ms": 4259.0,
+            "latency_p95_ms": 5471.6,
+            "latency_p99_ms": 5471.6,
+            "ttft_avg_ms": 0.0,
+            "total_cost_usd": 0.019078,
+            "total_tool_calls": 0,
+            "cache_hits": 0,
+            "cache_hit_rate": 0.0,
+            "total_retries": 0,
+            "retry_rate": 0.0
+          },
+          {
+            "session_id": "5",
+            "turns": 3,
+            "latency_p50_ms": 11922.6,
+            "latency_p95_ms": 41986.1,
+            "latency_p99_ms": 41986.1,
+            "ttft_avg_ms": 0.0,
+            "total_cost_usd": 0.066803,
+            "total_tool_calls": 6,
+            "cache_hits": 0,
+            "cache_hit_rate": 0.0,
+            "total_retries": 0,
+            "retry_rate": 0.0
+          }
+        ]
+      },
+      "session_results": [
+        {
+          "session_id": "1",
+          "turns": [
+            {
+              "turn": 1,
+              "user": "I just got my salary credited. Help me figure out how much I can realistically save this month.",
+              "agent": "Your key numbers for November:  \n\u2022 Checking balance: \u20b91,28,000  \n\u2022 Upcoming auto-debits:  \n   \u2013 Rent \u20b925,000 (5th)  \n   \u2013 SIP \u20b910,000 (10th)  \n   \u2013 Internet+Mobile \u20b93,500 (15th)  \n   \u2013 CC payment \u20b98,000 (20th)  \n  \u2192 Total bills: \u20b946,500  \n\u2022 House-fund transfer (25th): \u20b930,000  \n\u2192 Mandatory outflows: \u20b976,500  \n\nThat leaves ~\u20b951,500 of your salary for groceries, eating out, transport, etc. If you set aside 50% of that (\u2248\u20b925,750) as extra savings, you end up saving:  \n  \u2022 SIP + House fund = \u20b940,000  \n  \u2022 + Extra savings \u2248 \u20b925,750  \n  = \u2248\u20b965,750 this month  \n\nRecommendation: Treat \u20b951,500 as your \u201cspendable\u201d pool and aim to save at least half of it. You\u2019ll lock in ~\u20b966 K savings without cramping your day-to-day cash flow."
+            },
+            {
+              "turn": 2,
+              "user": "I feel like I'm spending too much on food delivery. How much did I actually spend on it last month?",
+              "agent": "In October you placed 9 food-delivery orders totaling \u20b912,240. That\u2019s an average of ~\u20b91,360 per order, with your largest spend at \u20b92,200.  \n\nAt ~4% of your \u20b9120 K salary, it\u2019s not huge\u2014but if you want to trim it:  \n\u2022 Aim for a monthly cap of, say, \u20b98,000\u2013\u20b99,000 (a 25\u201335% cut).  \n\u2022 Try 2 \u201cno-delivery\u201d days per week and bulk-cook once.  \n\nThat could free up another \u20b93,000\u20134,000 to boost your savings next month."
+            },
+            {
+              "turn": 3,
+              "user": "Okay that's worse than I thought. Let's say I want to cut that in half AND put aside \u20b930,000 for my house fund this month \u2014 is that realistic given my upcoming bills?",
+              "agent": "Here\u2019s the math using your \u20b9120 K salary and November\u2019s auto-debits:\n\n\u2022 Rent \u20b925 000  \n\u2022 SIP \u20b910 000  \n\u2022 Internet+Mobile \u20b93 500  \n\u2022 CC \u20b98 000  \n\u2022 House-fund \u20b930 000  \n\u2022 Food-delivery cap (\u00bd of \u20b912 240) \u20b96 120  \n\u2192 Total committed: \u20b982 620  \n\nLeftover for groceries, transport, entertainment, bills you pay manually:  \n\u20b9120 000 \u2013 \u20b982 620 = \u20b937 380  \n\nYes, it\u2019s realistic\u2014but you\u2019ll need to run all non-essentials (groceries, fuel, outings) on ~\u20b937 K. If that\u2019s 15\u201320 K less than your normal discretionary spend, plan to trim groceries/entertainment by a few thousand. Otherwise you\u2019ll hit this target comfortably and still have a small \u20b95\u201310 K buffer."
+            },
+            {
+              "turn": 4,
+              "user": "Got it. Remind me to actually transfer the \u20b930,000 to my house fund on the 25th.",
+              "agent": "Done\u2014I\u2019ll remind you on the 25th to transfer \u20b930,000 to your house fund."
+            }
+          ],
+          "facts_stored": 3,
+          "metrics": {
+            "session_id": "1",
+            "turns": 4,
+            "latency_p50_ms": 16253.5,
+            "latency_p95_ms": 22437.7,
+            "latency_p99_ms": 22437.7,
+            "ttft_avg_ms": 0.0,
+            "total_cost_usd": 0.059184,
+            "total_tool_calls": 6,
+            "cache_hits": 0,
+            "cache_hit_rate": 0.0,
+            "total_retries": 0,
+            "retry_rate": 0.0
+          }
+        },
+        {
+          "session_id": "2",
+          "turns": [
+            {
+              "turn": 1,
+              "user": "Hey, my colleague is selling his MacBook for \u20b980,000, barely used. I've been wanting to upgrade. Should I buy it?",
+              "agent": "Dropping \u20b980 000 on a MacBook today would eat into your liquid buffer pretty heavily. Here\u2019s the quick math:\n\n\u2022  Current liquid cash: Checking \u20b999 820 + Savings \u20b9145 000 = \u20b9244 820  \n\u2022  Upcoming debits this month:  \n\u2003\u2013 SIP on Nov 10: \u20b910 000  \n\u2003\u2013 Internet/Mobile on Nov 15: \u20b93 500  \n\u2003\u2013 Credit card on Nov 20: \u20b98 000  \n\u2003\u2013 House-fund transfer on Nov 25: \u20b930 000  \n\u2003= \u20b951 500  \n\u2022  Cash left after bills/transfers: \u2248\u20b9193 320  \n\u2022  If you buy the MacBook: \u2248\u20b9113 320 balance  \n\nYou\u2019d still have a cushion, but remember you\u2019re already saving \u20b940 000/month toward that \u20b915 lakh down-payment goal. Pulling \u20b980 000 now means shaving off two full months of planned savings\u2014and slowing your timeline.\n\nRecommendation: Unless your current machine is blocking income or you\u2019ve got a one-off bonus earmarked for gadgets, I\u2019d hold off. Instead, set up a small \u201ctech upgrade\u201d fund\u2014say \u20b95 000\u201310 000/month\u2014and buy when it\u2019s fully paid without derailing your house-fund plan."
+            }
+          ],
+          "facts_stored": 0,
+          "metrics": {
+            "session_id": "2",
+            "turns": 1,
+            "latency_p50_ms": 13334.7,
+            "latency_p95_ms": 13334.7,
+            "latency_p99_ms": 13334.7,
+            "ttft_avg_ms": 0.0,
+            "total_cost_usd": 0.017335,
+            "total_tool_calls": 2,
+            "cache_hits": 0,
+            "cache_hit_rate": 0.0,
+            "total_retries": 0,
+            "retry_rate": 0.0
+          }
+        },
+        {
+          "session_id": "3",
+          "turns": [
+            {
+              "turn": 1,
+              "user": "I've been investing \u20b910,000/month in SIPs. Is that enough given my 2-year timeline?",
+              "agent": "On a \u20b910,000/month SIP for 24 months at ~10% p.a., you\u2019ll end up with roughly \u20b92.7 lakh (\u20b92.4 L invested + ~\u20b90.3 L gains). Your \u20b930,000/month transfers to the house fund add another \u20b97.2 lakh over two years, so combined you\u2019d have about \u20b99.9 lakh\u2014still ~\u20b95.1 lakh shy of your \u20b915 lakh goal.\n\nTo bridge that gap in 24 months at the same assumed return, you\u2019re looking at total savings of ~\u20b960,000/month. You could:\n\u2022 Keep your \u20b930K/month house fund and raise your SIP to around \u20b930K/month  \n\u2022 Or split differently\u2014say \u20b940K into SIP and \u20b920K into house fund\u2014if that fits cash flow.\n\nLet me know if you\u2019d like to model any of those scenarios."
+            },
+            {
+              "turn": 2,
+              "user": "What if I added \u20b95,000 more per month to my SIP? Show me the difference.",
+              "agent": "By ramping your SIP from \u20b910 000 to \u20b915 000/month over 24 months at ~10% p.a.:\n\n\u2022 \u20b910 000 \u00d7 24 \u2192 ~\u20b92.7 L (\u20b92.4 L invested + ~\u20b90.3 L gains)  \n\u2022 \u20b915 000 \u00d7 24 \u2192 ~\u20b94.05 L (\u20b93.6 L invested + ~\u20b90.45 L gains)  \n\nSo the extra \u20b95 000/month nets you about \u20b91.35 L more. Adding your fixed house-fund transfers (\u20b930 000 \u00d7 24 = \u20b97.2 L) gives:\n\n\u2013 With \u20b910K SIP: ~\u20b99.9 L total  \n\u2013 With \u20b915K SIP: ~\u20b911.25 L total  \n\nYou\u2019ve shaved off ~\u20b91.35 L from the shortfall. Want to see what it looks like if you boost SIP further?"
+            },
+            {
+              "turn": 3,
+              "user": "The math looks good. Set a reminder to review my SIP amount on December 15th.",
+              "agent": "Reminder set for 2025-12-15 to review SIP amount."
+            }
+          ],
+          "facts_stored": 2,
+          "metrics": {
+            "session_id": "3",
+            "turns": 3,
+            "latency_p50_ms": 10228.9,
+            "latency_p95_ms": 19388.6,
+            "latency_p99_ms": 19388.6,
+            "ttft_avg_ms": 0.0,
+            "total_cost_usd": 0.045252,
+            "total_tool_calls": 4,
+            "cache_hits": 0,
+            "cache_hit_rate": 0.0,
+            "total_retries": 0,
+            "retry_rate": 0.0
+          }
+        },
+        {
+          "session_id": "4",
+          "turns": [
+            {
+              "turn": 1,
+              "user": "December is coming up. What ELSS funds should I consider for tax saving under 80C?",
+              "agent": "With just a few months left in this financial year, you\u2019ll want ELSS picks with strong track records, reasonable expense ratios and good liquidity once their three-year lock-in ends. A few to consider:  \n1. Axis Long Term Equity Fund \u2013 Consistent 14\u201316% CAGR over 5+ years, AUM \u20b920,000+ cr, expense ~1.8%  \n2. Mirae Asset Tax Saver Fund \u2013 Top quartile returns (13\u201315%), low expense (~1.6%), robust large-cap tilt  \n3. Aditya Birla SL Tax Relief 96 \u2013 Balanced large/mid-cap exposure, steady 12\u201314% returns, expense ~1.9%  \n4. DSP Tax Saver \u2013 Mid-cap focus for slightly higher growth (14\u201317%), a bit more volatility, expense ~2%  \n5. Kotak Tax Saver \u2013 Conservative but consistent (11\u201313%), expense ~1.7%, leans large-cap  \n\nHow to proceed:  \n\u2022 Decide between a lump-sum before Dec\u200931 vs. start an SIP now (even \u20b92,000/m adds up).  \n\u2022 Compare exit loads (all have a 1% exit load if redeemed within a year).  \n\u2022 Pick 2\u20133 funds and spread your \u20b91.5\u2009lakh limit; diversification helps smooth returns.  \n\nIf you\u2019d like a deeper fund-by-fund comparison or need help setting up the lumpsum/SIP, let me know!"
+            },
+            {
+              "turn": 2,
+              "user": "I have about \u20b940,000 left in my 80C limit. Should I put it all in ELSS or split between PPF and ELSS?",
+              "agent": "Since you\u2019ve only got \u20b940K left in 80C and you\u2019re targeting a house down-payment in about two years, think about lock-in versus return profile:\n\n\u2022 ELSS\u2003  \n  \u2013 Lock-in: 3 years.  \n  \u2013 Equity upside: historically 12\u201315% p.a., but markets swing.  \n  \u2013 Good if you don\u2019t need that \u20b940K till late 2028 and want higher return potential.\n\n\u2022 PPF\u2003  \n  \u2013 Lock-in: 15 years (with partial withdrawals from year 7 onward).  \n  \u2013 Guaranteed ~7\u20137.5% p.a.  \n  \u2013 Not ideal for a 2-year horizon, but great for a safe core.\n\nMy take:  \nIf you\u2019re comfortable with equities and won\u2019t touch it till lock-in ends, go 100% ELSS now to maximise tax-saver growth.  \nIf you want a bit of safety and some guaranteed yield, split it\u2014say \u20b925K in ELSS and \u20b915K in PPF. That way you lock most into equity, but have a low-risk cushion."
+            },
+            {
+              "turn": 3,
+              "user": "Given my house goal in 2 years, does putting money in PPF (locked 15 years) make sense?",
+              "agent": "For a two-year house down-payment goal, PPF\u2019s 15-year lock-in is a mismatch\u2014even though it pays ~7\u20137.5%, you can\u2019t touch the money (beyond small loans/partial withdrawals only after year 7). You\u2019d be locking \u20b940 K away well past your target.\n\nBetter options:  \n\u2013 ELSS: 3-year lock-in, equity upside (12\u201315% p.a. long term) and full liquidity by late 2028\u2014still gives you breathing room ahead of a 2027 home purchase.  \n\u2013 Short-duration debt or ultra-short bond funds: 6\u201324-month horizon, lower volatility and reasonable 5\u20137% yields, with easy exit.\n\nMy call: Skip PPF for this \u20b940 K tranche. Go ELSS if you can stomach three years off-limits, or split into ELSS + short-term debt funds so you keep flexibility, tax savings and a bit of safety."
+            }
+          ],
+          "facts_stored": 0,
+          "metrics": {
+            "session_id": "4",
+            "turns": 3,
+            "latency_p50_ms": 4259.0,
+            "latency_p95_ms": 5471.6,
+            "latency_p99_ms": 5471.6,
+            "ttft_avg_ms": 0.0,
+            "total_cost_usd": 0.019078,
+            "total_tool_calls": 0,
+            "cache_hits": 0,
+            "cache_hit_rate": 0.0,
+            "total_retries": 0,
+            "retry_rate": 0.0
+          }
+        },
+        {
+          "session_id": "5",
+          "turns": [
+            {
+              "turn": 1,
+              "user": "It's been a month since we set up my savings plan. How am I tracking toward my \u20b915 lakh goal?",
+              "agent": "You\u2019ve put aside \u20b995 000 in your house fund and \u20b92 80 000 via SIP\u2014so \u20b93 75 000 total (25% of your \u20b915 lakh goal) after one month.  \n\nAt \u20b940 000/month, you\u2019ll need another \u20b911 25 000.  \n \u2022 Without returns that\u2019s ~28 months of contributions.  \n \u2022 With a conservative 10% annual return, you\u2019d shave that to about 26 months\u2014still ~2 months past your 24-month target.  \n\nTo hit \u20b915 lakh in 24 months, boost your monthly savings by roughly \u20b95 000 (e.g., raise your SIP to \u20b915 000 or your house\u2010fund transfer to \u20b935 000). Even a small bump now keeps you right on schedule."
+            },
+            {
+              "turn": 2,
+              "user": "My friends want to plan a Goa trip for New Year. Budget would be around \u20b915,000. Should I do it?",
+              "agent": "You\u2019re in good shape. After your November auto\u2010debts (rent \u20b925 k, SIP \u20b910 k, internet + mobile \u20b93.5 k, credit card \u20b98 k) plus your \u20b930 k house-fund transfer, you\u2019ve still got about \u20b951.5 k in checking. A \u20b915 k Goa trip eats less than a third of that buffer. As long as you stick to your usual groceries/food cap and don\u2019t raid the house fund, it won\u2019t derail your down-payment plan. Go for it\u2014and don\u2019t forget your Dec 1 reminder to book flights before prices spike."
+            },
+            {
+              "turn": 3,
+              "user": "Remind me to book flights before December 1st before prices spike.",
+              "agent": "Got it\u2014your reminder to book those Goa flights by December 1 is set. Have a fantastic trip!"
+            }
+          ],
+          "facts_stored": 1,
+          "metrics": {
+            "session_id": "5",
+            "turns": 3,
+            "latency_p50_ms": 11922.6,
+            "latency_p95_ms": 41986.1,
+            "latency_p99_ms": 41986.1,
+            "ttft_avg_ms": 0.0,
+            "total_cost_usd": 0.066803,
+            "total_tool_calls": 6,
+            "cache_hits": 0,
+            "cache_hit_rate": 0.0,
+            "total_retries": 0,
+            "retry_rate": 0.0
+          }
+        }
+      ]
+    }
+  ]
+}

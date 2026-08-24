@@ -1,0 +1,54 @@
+Session 1 — Monday, November 3, 2025
+User: priya_sharma
+============================================================
+
+Turn 1:
+  User: I just got my salary credited. Help me figure out how much I can realistically save this month.
+  Agent: Your key numbers for November:  
+• Checking balance: ₹1,28,000  
+• Upcoming auto-debits:  
+   – Rent ₹25,000 (5th)  
+   – SIP ₹10,000 (10th)  
+   – Internet+Mobile ₹3,500 (15th)  
+   – CC payment ₹8,000 (20th)  
+  → Total bills: ₹46,500  
+• House-fund transfer (25th): ₹30,000  
+→ Mandatory outflows: ₹76,500  
+
+That leaves ~₹51,500 of your salary for groceries, eating out, transport, etc. If you set aside 50% of that (≈₹25,750) as extra savings, you end up saving:  
+  • SIP + House fund = ₹40,000  
+  • + Extra savings ≈ ₹25,750  
+  = ≈₹65,750 this month  
+
+Recommendation: Treat ₹51,500 as your “spendable” pool and aim to save at least half of it. You’ll lock in ~₹66 K savings without cramping your day-to-day cash flow.
+
+Turn 2:
+  User: I feel like I'm spending too much on food delivery. How much did I actually spend on it last month?
+  Agent: In October you placed 9 food-delivery orders totaling ₹12,240. That’s an average of ~₹1,360 per order, with your largest spend at ₹2,200.  
+
+At ~4% of your ₹120 K salary, it’s not huge—but if you want to trim it:  
+• Aim for a monthly cap of, say, ₹8,000–₹9,000 (a 25–35% cut).  
+• Try 2 “no-delivery” days per week and bulk-cook once.  
+
+That could free up another ₹3,000–4,000 to boost your savings next month.
+
+Turn 3:
+  User: Okay that's worse than I thought. Let's say I want to cut that in half AND put aside ₹30,000 for my house fund this month — is that realistic given my upcoming bills?
+  Agent: Here’s the math using your ₹120 K salary and November’s auto-debits:
+
+• Rent ₹25 000  
+• SIP ₹10 000  
+• Internet+Mobile ₹3 500  
+• CC ₹8 000  
+• House-fund ₹30 000  
+• Food-delivery cap (½ of ₹12 240) ₹6 120  
+→ Total committed: ₹82 620  
+
+Leftover for groceries, transport, entertainment, bills you pay manually:  
+₹120 000 – ₹82 620 = ₹37 380  
+
+Yes, it’s realistic—but you’ll need to run all non-essentials (groceries, fuel, outings) on ~₹37 K. If that’s 15–20 K less than your normal discretionary spend, plan to trim groceries/entertainment by a few thousand. Otherwise you’ll hit this target comfortably and still have a small ₹5–10 K buffer.
+
+Turn 4:
+  User: Got it. Remind me to actually transfer the ₹30,000 to my house fund on the 25th.
+  Agent: Done—I'll remind you on the 25th to transfer ₹30,000 to your house fund.
